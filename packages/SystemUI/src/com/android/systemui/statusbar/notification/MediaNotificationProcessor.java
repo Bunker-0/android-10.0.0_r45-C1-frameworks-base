@@ -64,7 +64,7 @@ public class MediaNotificationProcessor {
      * The population fraction to select a white or black color as the background over a color.
      */
     private static final float POPULATION_FRACTION_FOR_WHITE_OR_BLACK = 2.5f;
-    private static final float BLACK_MAX_LIGHTNESS = 0.08f;
+    private static final float BLACK_MAX_LIGHTNESS = 0.50f;
     private static final float WHITE_MIN_LIGHTNESS = 0.90f;
     private static final int RESIZE_BITMAP_AREA = 150 * 150;
     private final ImageGradientColorizer mColorizer;
