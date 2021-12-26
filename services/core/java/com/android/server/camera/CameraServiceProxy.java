@@ -81,7 +81,7 @@ public class CameraServiceProxy extends SystemService
     private static final int RETRY_TIMES = 30;
 
     // Maximum entries to keep in usage history before dumping out
-    private static final int MAX_USAGE_HISTORY = 100;
+    private static final int MAX_USAGE_HISTORY = 5;
 
     private final Context mContext;
     private final ServiceThread mHandlerThread;
