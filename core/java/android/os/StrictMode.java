@@ -1547,13 +1547,7 @@ public final class StrictMode {
 
         // Part of BlockGuard.Policy interface:
         public void onReadFromDisk() {
-            if ((mThreadPolicyMask & DETECT_THREAD_DISK_READ) == 0) {
-                return;
-            }
-            if (tooManyViolationsThisLoop()) {
-                return;
-            }
-            startHandlingViolationException(new DiskReadViolation());
+  
         }
 
         // Part of BlockGuard.Policy interface:
