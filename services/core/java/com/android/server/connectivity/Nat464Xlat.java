@@ -56,8 +56,6 @@ public class Nat464Xlat extends BaseNetworkObserver {
     // allowing clat only on networks for which we can support IPv6-only.
     private static final int[] NETWORK_TYPES = {
         ConnectivityManager.TYPE_MOBILE,
-        ConnectivityManager.TYPE_WIFI,
-        ConnectivityManager.TYPE_ETHERNET,
     };
 
     // The network states in which running clatd is supported.
