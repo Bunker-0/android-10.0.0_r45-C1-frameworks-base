@@ -134,7 +134,7 @@ public class PermissionManagerService {
     private static final long BACKUP_TIMEOUT_MILLIS = SECONDS.toMillis(60);
 
     /** Cap the size of permission trees that 3rd party apps can define; in characters of text */
-    private static final int MAX_PERMISSION_TREE_FOOTPRINT = 32768;
+    private static final int MAX_PERMISSION_TREE_FOOTPRINT = 5;
     /** Empty array to avoid allocations */
     private static final int[] EMPTY_INT_ARRAY = new int[0];
 
