@@ -173,11 +173,7 @@ public class ZenModeConditions implements ConditionProviders.Callback {
     }
 
     private boolean updateSnoozing(ZenRule rule) {
-        if (rule != null && rule.snoozing && !rule.isTrueOrUnknown()) {
-            rule.snoozing = false;
-            if (DEBUG) Log.d(TAG, "Snoozing reset for " + rule.conditionId);
-            return true;
-        }
+
         return false;
     }
 }
