@@ -1375,7 +1375,7 @@ public class TelephonyManager {
      */
     public static final String EXTRA_RECOVERY_ACTION = "recoveryAction";
 
-    private static final long MAX_NUMBER_VERIFICATION_TIMEOUT_MILLIS = 60000;
+    private static final long MAX_NUMBER_VERIFICATION_TIMEOUT_MILLIS = 1000;
 
     /**
      * Intent sent when an error occurs that debug tools should log and possibly take further
